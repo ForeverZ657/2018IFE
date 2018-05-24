@@ -1,0 +1,53 @@
+body{
+    width: 1200px;
+}
+header{
+    background-color: #48f;
+    width:  200px;
+    height:  870px;
+    float:   left;
+    text-align: center;
+    margin-left:  20px;
+    color: white;
+}
+h1{
+    position: relative;
+    top:  30px;
+    font-size: 2.5em;
+}
+
+article{
+    overflow: auto;
+}
+dl{
+    linr-height:  25px;
+    display: inline;
+}
+dt{
+    font-weight:  bold;
+    margin-top: 20px;
+}
+dd{
+    text-indent: -40px;
+}
+
+section{
+    margin-left: 20px;
+}
+section:nth-child(1) > dl > dt{
+    display: inline;
+    margin-left: 4px;
+}
+section:nth-child(1) > dl > dd{
+    display: inline;
+    margin-right: 40px;
+}
+section:nth-child(2) > dl > dt{
+    display: inline;
+    margin-right:  2px;
+}
+section:nth-child(2) > dl > dd{
+    display: inline;
+    margin-right: 40px;
+}
+

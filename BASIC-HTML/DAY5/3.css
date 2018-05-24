@@ -1,0 +1,87 @@
+body{
+    width: 1200px;
+}
+header {
+    position: relative;
+    background-color: grey;
+    height: 70px;
+}
+
+header h1{
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+    left: 25px;
+}
+section{
+    padding: 0;
+    background: white;
+    border-bottom: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+
+}
+section h2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #c0c0c0;
+    font-size: 1em;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: 1px solid white;
+    position: relative;
+    margin: 0;
+}
+section dl{
+    display: inline-block;
+}
+dl{
+    line-height: 20px;
+    display: inline;
+}
+dt{
+font-weight: bold;
+}
+dd{
+    text-indent: -40px;
+}
+section > dl{
+    position: absolute;
+    text-align: left;
+    transform: translate(10px, 10px);
+    -webkit-transform: translate(10px, 10px);;
+
+}
+section > dl > dt{
+    float: left;
+    display: inline;
+}
+section > dl > dd{
+    width: 600px;
+    text-indent: 3px;
+}
+section:nth-child(1) > dl > dt{
+    display: inline;
+    float: none;
+}
+section:nth-child(1) > dl > dt{
+    display: inline;
+    margin: 0;
+    margin-left: 10px;
+}
+section:nth-child(1) > dl > dd{
+    display: inline;
+    margin-left: 15px;
+}
+section:nth-child(2) > dl > dt{
+    display: inline;
+    margin-left: 10px;
+    float: none;
+
+}
+section:nth-child(2) > dl > dd{
+    display: inline;
+    margin-left: 15px;
+}
+
+
