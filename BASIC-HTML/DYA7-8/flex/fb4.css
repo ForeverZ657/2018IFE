@@ -1,0 +1,31 @@
+.left{
+    width: 300px;
+    height: 100px;
+    background-color: grey ;
+
+}
+.right{
+    width: 300px;
+    height: 100px;
+    background-color: grey ;
+
+}
+.main{
+    width: auto;
+    height: 100px;
+    background-color: blue ;
+
+}
+.container{
+    display: flex;
+    flex: 1;
+}
+.main{
+    flex: 1;
+}
+.left, .right{
+    flex: 0 0 12em;
+}
+.left{
+    order: -1;
+}

@@ -1,0 +1,118 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #333;
+    height:  85px;
+}
+header div{
+    max-width: 960px;
+    margin: 0 auto;
+    line-height: 4em;
+    position: relative;
+}
+header h1{
+    color: white;
+    margin: 0;
+}
+.link{
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+.link a{
+    color: white;
+}
+input{
+    display: none;
+}
+.banner{
+    background-color: #6b3;
+    height:  300px;
+}
+.banner > div{
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+}
+.button_click{
+    position: absolute;
+    top: 245px;
+    right: -10px;
+    line-height: 30px;
+}
+.button_click label{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    opacity: 0.5;
+}
+#active{
+    opacity: 0.8;
+    height: 40px;
+    line-height:50px;
+}
+nav{
+    height: 65px;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid #ddd;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px 20px 0 0;
+    line-height: 50px;
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    top: 15px;
+    left: 160px;
+}
+.link_nav{
+    background-color: white;
+    border-bottom-color: white;
+}
+
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 10px 0;
+}
+.flex_area{
+    display: flex;
+    flex: 1;
+    margin: 5px 0;
+}
+.flex_area div{
+    flex: 1 1 auto;
+    border: 1px solid #ddd;
+    padding: 60px;
+    margin: 0 5px;
+    text-align: center;
+}
+.flex_area div:first-child{
+    margin-left: 200px;
+}
+.flex_area div:last-child{
+    margin-right: 200px;
+}
+
+footer {
+    background-color:	#666;
+    height:				100px;
+    text-align:			center;
+    line-height:		50px;
+    color:				white;
+    top: 25px;
+}
+

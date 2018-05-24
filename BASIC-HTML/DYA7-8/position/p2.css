@@ -1,0 +1,15 @@
+
+.left{
+    width: 500px;
+    height: 100px;
+    background-color: grey ;
+    position: absolute;
+
+}
+.right{
+
+    height: 100px;
+    background-color: green ;
+    margin-left: 500px;
+
+}

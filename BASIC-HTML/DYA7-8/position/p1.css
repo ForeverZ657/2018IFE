@@ -1,0 +1,22 @@
+.left{
+    width: 30%;
+    height: 100px;
+    background-color: grey ;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+
+
+}
+.right{
+    width: 70%;
+    height: 100px;
+    background-color: green ;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+
+}

@@ -1,0 +1,15 @@
+.left{
+    width: 30%;
+    height: 100px;
+    background-color: grey ;
+
+}
+.right{
+    width: 70%;
+    height: 100px;
+    background-color: green ;
+
+}
+.container{
+    display: flex;
+}

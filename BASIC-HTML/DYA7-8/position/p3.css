@@ -1,0 +1,16 @@
+<!-- 在左侧自动，右侧固定宽度时，需要将div right在上面，left在下面 -->
+.left{
+    width: auto;
+    height: 100px;
+    background-color: grey ;
+    margin-right: 300px;
+
+}
+.right {
+    width: 300px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    top:0;
+    right: 0;
+}
